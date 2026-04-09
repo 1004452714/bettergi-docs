@@ -10,7 +10,7 @@ order: 50
 
 ```js
 // 从JSON字符串运行路径追踪
-const pathingJson = '{"waypoints": [{"x": 100, "y": 200}, {"x": 300, "y": 400}]}';
+const pathingJson = '{"positions": [{"x": 100, "y": 200}, {"x": 300, "y": 400}]}';
 await pathingScript.run(pathingJson);
 
 // 从文件运行路径追踪
